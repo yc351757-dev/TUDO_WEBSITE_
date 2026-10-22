@@ -1,0 +1,16 @@
+SKILLPILOT PULSE — WINDOWS QUICK START
+
+1. Extract SkillPilot_Pulse.zip.
+2. Open the SkillPilot_Pulse folder.
+3. Make sure package.json is visible in that folder.
+4. Open PowerShell in that exact folder.
+5. Run:
+   npm install
+   npm run dev
+6. Open the localhost URL printed by Vite (usually http://localhost:5173/).
+
+If PowerShell is in the parent folder and package.json cannot be found, use:
+   cd .\SkillPilot_Pulse
+then run npm install and npm run dev.
+
+Requires Node.js and npm. Live feed requires internet; curated sample learning resources appear if the API is unavailable.
